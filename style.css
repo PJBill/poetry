@@ -1,52 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet");
-*{
-  font-family: "Oswald", sans-serif;
-}
-
-#box-model-puzzle > p {
-  background-color: purple;
-}
-#challenge-1{
-  padding:50px;
-}
-
-.challenge-2{
-  padding: 10px;
-  width:200px;
-  height: auto;
-  display: inline-block;
-  vertical-align: top;
-
-}
-#challenge-4{
-  padding:10px;
-  border-bottom: 20px solid purple;
-}
-
-
-#challenge-5{
-  padding: 10px;
-  margin: 100px 200px;
-  border: 10px solid purple;
-  text-align: center;
-
-}
-
-#challenge-6{
-  padding: 10px;
-  border-right: 20px solid #60099;
-  text-align right;
-  text-transform: uppercase;
-  text-decoration: overline;
-  font-style: italic;
-
-
-}
+body {
 
 
 
-#box-static {
-	color: white;
-	background-color: crimson;
-	position: static; /* Default value for position */
-}
+
+	font: 14px "Palatino Linotype", serif;
+	text-align: center;
+	}
+  h1 {
+    margin: 150px 5px 0 0;
+  	font-size: 34px;
+  	line-height: 1.2;
+  	margin-bottom: 10px;
+    font-weight: normal;
+  	}
+  h2 {
+	color: #grey;
+	font-size: 18px;
+
+	font-style: italic;
+	margin-bottom: 30px;
+  font-weight: normal;
+	}
+  p {
+  	line-height: 0.6;
+  	margin-bottom: 15px;
+  	}

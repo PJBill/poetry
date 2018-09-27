@@ -1,8 +1,9 @@
 body {
 
 
-
-
+  background-image: url("BG.png");
+	background-color: #efefef;
+  background-repeat: no-repeat;
 	font: 14px "Palatino Linotype", serif;
 	text-align: center;
 	}

@@ -1,20 +1,29 @@
 body {
-
-
   background-image: url("BG.png");
 	background-color: #efefef;
   background-repeat: no-repeat;
 	font: 14px "Palatino Linotype", serif;
 	text-align: center;
 	}
+section {
+  top:200px;
+  position: fixed;
+  left: 555px;
+}
+
   h1 {
-    margin: 150px 5px 0 0;
+    position: fixed;
+    left: 500px;
+    top: 100px;
   	font-size: 34px;
   	line-height: 1.2;
   	margin-bottom: 10px;
     font-weight: normal;
   	}
   h2 {
+  top: 150px;
+  position: fixed;
+  left: 550px;
 	color: grey;
 	font-size: 18px;
 
@@ -23,6 +32,7 @@ body {
   font-weight: normal;
 	}
   p {
+
   	line-height: 0.6;
   	margin-bottom: 15px;
   	}
